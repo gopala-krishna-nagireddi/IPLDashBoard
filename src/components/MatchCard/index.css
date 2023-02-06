@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.recent-match-item {
+  width: 48%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0f172a;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.recent-match-item > img {
+  width: 60px;
+  height: 70px;
+}
+
+.recent-match-item > h3 {
+  text-align: center;
+}
+
+.recent-match-item > p {
+  text-align: center;
+}
+
+.result-Won {
+  color: #18ed66;
+  font-size: 30px;
+}
+
+.result-Lost {
+  color: #e31a1a;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-item {
+    width: 32%;
+  }
+}

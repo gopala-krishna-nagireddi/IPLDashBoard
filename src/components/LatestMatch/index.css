@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.latest-match-container {
+  background-color: #0f172a;
+  padding: 20px;
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+.competing-team-logo-sm {
+  width: 120px;
+}
+
+.competing-team-logo-lg {
+  display: none;
+}
+
+.competing-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.competing-team {
+  font-size: 26px;
+}
+
+.date {
+  font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .competing-team-logo-sm {
+    display: none;
+  }
+
+  .competing-team-logo-lg {
+    display: block;
+  }
+
+  .hr-line {
+    display: none;
+  }
+
+  .innings-container {
+    text-align: end;
+  }
+}
